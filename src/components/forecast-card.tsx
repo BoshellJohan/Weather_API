@@ -38,7 +38,7 @@ export default function ForecastCard({ data, index, total, onPrev, onNext }: For
         </div>
       </CardContent>
       <CardFooter className="p-4 flex items-center justify-between bg-white dark:bg-slate-800">
-        <Button onClick={onPrev} disabled={index === 0} variant="outline" size="sm" className="flex items-center">
+        <Button onClick={onPrev} disabled={index === 0} variant="outline" size="sm" className="flex items-center cursor-pointer">
           <ChevronLeft className="h-4 w-4 mr-1" />
           Prev
         </Button>
@@ -51,7 +51,7 @@ export default function ForecastCard({ data, index, total, onPrev, onNext }: For
           disabled={index === total - 1}
           variant="outline"
           size="sm"
-          className="flex items-center"
+          className="flex items-center cursor-pointer"
         >
           Next
           <ChevronRight className="h-4 w-4 ml-1" />

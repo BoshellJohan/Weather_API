@@ -37,7 +37,7 @@ export default function WeatherSearch({ city, setCity, onSearch }: WeatherSearch
         <div className="md:self-end">
           <Button
             type="submit"
-            className="w-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white"
+            className="w-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white cursor-pointer"
           >
             <Search className="mr-2 h-4 w-4" />
             Get Weather
