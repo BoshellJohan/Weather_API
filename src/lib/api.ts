@@ -1,4 +1,4 @@
-const API_key = 'c69dd6502fbbda5ca098c7aa6bb09795'
+import {API_key} from './apikey.js'
 
 export async function getCityWeather(city: string) {
   // In a real implementation, you would call your weather API here
